@@ -1,70 +1,315 @@
-# Getting Started with Create React App
+# 📘 Frontend README.md
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+````md
+# 🚀 AI Adaptive Tutor Frontend
 
-## Available Scripts
+A modern React-based frontend for the AI Adaptive Tutor platform that delivers personalized concept explanations, interactive simulations, and AI-powered learning assessments.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🌟 Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 🧠 Topic-based AI explanations
+- 🎓 Learning modes:
+  - Simple
+  - Normal
+  - Deep Dive
+- 🎬 Dynamic simulation timeline for any topic
+- 📊 AI-powered understanding evaluation
+- 📈 Score indicators and personalized feedback
+- 🎨 Attractive hackathon-ready UI
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🏗️ Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- React.js
+- Axios
+- JavaScript
+- CSS / Inline Styling
+- VS Code
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## ⚙️ Setup Instructions
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Clone Repository
+```bash
+git clone <frontend-repo-url>
+cd frontend
+````
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Install Dependencies
 
-### `npm run eject`
+```bash
+npm install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Start Development Server
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+npm start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Runs on:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+http://localhost:3000
+```
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🔗 Backend Connection
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Ensure backend is running at:
 
-### Code Splitting
+```bash
+http://localhost:8081
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Integrated APIs:
 
-### Analyzing the Bundle Size
+* POST `/ai/explain`
+* POST `/ai/evaluate`
+* POST `/ai/simulate`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## 📂 Project Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+frontend/
+├── public/
+├── src/
+│   ├── App.js
+│   ├── api.js
+│   └── components/
+└── package.json
+```
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 🎯 Demo Flow
 
-### Deployment
+1. Enter a topic
+2. Select learning mode
+3. Generate explanation
+4. Run live simulation
+5. Submit understanding
+6. Receive AI evaluation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## 🏆 Highlights
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* Personalized learning experience
+* Dynamic timeline visualization
+* Hackathon-grade polished UI
+* Adaptive educational workflow
+
+---
+
+## 🚀 Future Enhancements
+
+* Dark mode dashboard
+* User authentication
+* Progress tracking
+* Quiz engine
+* Voice interaction
+
+---
+
+## 📢 Tagline
+
+**Learn Smarter. Not Harder.**
+
+````
+
+---
+
+# 📙 Backend README.md
+
+```md
+# 🚀 AI Adaptive Tutor Backend
+
+A Spring Boot-powered intelligent backend system for personalized AI tutoring, concept simulation, and understanding evaluation.
+
+---
+
+## 🌟 Features
+
+- 🧠 AI-generated concept explanations
+- 📊 Structured understanding evaluation
+- 🎬 Dynamic topic simulations
+- 🔗 Groq / Gemini / OpenAI API integration
+- ⚡ RESTful APIs
+- ☁️ Cloud deployment ready
+
+---
+
+## 🏗️ Tech Stack
+
+- Java 17
+- Spring Boot
+- Maven
+- REST APIs
+- Groq API / LLM APIs
+- IntelliJ IDEA
+
+---
+
+## ⚙️ Setup Instructions
+
+### Clone Repository
+```bash
+git clone <backend-repo-url>
+cd backend
+````
+
+### Configure Environment Variable
+
+```bash
+export GROQ_API_KEY=your_api_key_here
+```
+
+### Run Application
+
+```bash
+mvn spring-boot:run
+```
+
+Runs on:
+
+```bash
+http://localhost:8081
+```
+
+---
+
+## 📂 Project Structure
+
+```bash
+backend/
+├── src/main/java/com/learning/ai/
+│   ├── controller/
+│   ├── service/
+│   └── model/
+├── src/main/resources/
+│   └── application.properties
+└── pom.xml
+```
+
+---
+
+## 🔌 API Endpoints
+
+### Explain Concept
+
+### POST `/ai/explain`
+
+```json
+{
+  "topic": "Java Multithreading",
+  "level": "normal"
+}
+```
+
+---
+
+### Evaluate Understanding
+
+### POST `/ai/evaluate`
+
+```json
+{
+  "topic": "Java Multithreading",
+  "answer": "Threads improve performance"
+}
+```
+
+---
+
+### Simulate Topic
+
+### POST `/ai/simulate`
+
+```json
+{
+  "topic": "Kafka Architecture"
+}
+```
+
+---
+
+## 🧪 Sample curl Commands
+
+### Explain
+
+```bash
+curl -X POST http://localhost:8081/ai/explain \
+-H "Content-Type: application/json" \
+-d '{
+  "topic": "Java Multithreading",
+  "level": "normal"
+}'
+```
+
+### Evaluate
+
+```bash
+curl -X POST http://localhost:8081/ai/evaluate \
+-H "Content-Type: application/json" \
+-d '{
+  "topic": "Java Multithreading",
+  "answer": "Threads improve performance"
+}'
+```
+
+### Simulate
+
+```bash
+curl -X POST http://localhost:8081/ai/simulate \
+-H "Content-Type: application/json" \
+-d '{
+  "topic": "Russia Ukraine War"
+}'
+```
+
+---
+
+## 🔒 Environment Variables
+
+```bash
+GROQ_API_KEY=your_api_key_here
+```
+
+---
+
+## 🏆 Highlights
+
+* AI-driven adaptive learning engine
+* Personalized concept evaluation
+* Topic-agnostic simulations
+* Production-ready architecture
+* Hackathon-winning differentiation
+
+---
+
+## 🚀 Future Enhancements
+
+* Kafka integration
+* Persistent learning history
+* Analytics dashboard
+* Multi-model AI routing
+* Scalable cloud deployment
+
+---
+
+## 📢 Core Vision
+
+**Explain → Simulate → Evaluate → Personalize**
+
+Building the future of intelligent education.
+
+```
+```
